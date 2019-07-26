@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="rumus_persegi">Rumus Persegi</string>
+    <string name="rumussegitiga">rumussegitiga</string>
+    <string name="rumus_dari_kg_ke_hg">Rumus Dari KG Ke HG</string>
+    <string name="rumus_dari_kg_ke_dag">rumus dari kg ke dag</string>
+</resources>
