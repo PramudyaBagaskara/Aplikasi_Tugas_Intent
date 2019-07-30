@@ -1,5 +1,7 @@
 package com.example.myapplication;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -47,6 +49,12 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
 
                 int hasil = hsl * rumus;
                 result.setText("Total Berat\n"+String.valueOf(hasil));
+                Intent Data = new Intent();
+                Data.setData(Uri.parse(String.valueOf(hasil)));
+                setResult(RESULT_OK, Data);
+
+
+                finish();
 
             }
         }
